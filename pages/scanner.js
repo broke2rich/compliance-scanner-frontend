@@ -18,6 +18,7 @@ export default function Scanner() {
         headers: {
           'Content-Type': 'application/json'
         },
+        mode: 'cors',
         body: JSON.stringify({ url })
       });
 
