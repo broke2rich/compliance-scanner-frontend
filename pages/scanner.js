@@ -12,7 +12,7 @@ export default function Scanner() {
     setResult(null);
 
     try {
-      const res = await fetch('https://compliance-scanner-backend.onrender.com/scan', {
+      const res = await fetch('https://compliance-scanner-backend.vercel.app/scan', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
